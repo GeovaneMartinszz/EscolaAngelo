@@ -1,0 +1,10 @@
+contador = 1
+while True:
+    print(contador, end=" ")
+    contador += 1
+    if contador == 10:
+        break
+        # exit() -> sai do progresso e nao faz nada a partir daqui
+        print("não vai imprimir isso!")
+print()
+print("sempre imprime isso")
