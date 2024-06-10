@@ -8,7 +8,7 @@ print(tupla1[3])
 
 lista2 = list(tupla2)
 print(lista2)
-lista[0] = "avenida"
+lista2[0] = "avenida"
 tupla3 = tuple(lista2)
 print(tupla3)
 
